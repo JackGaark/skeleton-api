@@ -9,25 +9,25 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-You need Node.js and an IDE like VSCode.
-
+You need Node.js and an IDE like VSCode installed.
 
 ### Installing
 
 Install the dependencies
 
 ```
-yarn install
+yarn
 ```
 
 How to launch the API ?
 
-Copy the file `.env.default` to `.env`
+Copy the file `.env.default` to `.env` and set the values as you like.
 
 ```
 yarn watch # to build typescript in background
-yarn dev # to serve js on port 3000
+yarn dev # to launch server on the specified port in the .env file at root
 ```
+
 ## Running the tests
 
 ```
